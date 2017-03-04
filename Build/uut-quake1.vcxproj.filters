@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UUT">
+      <UniqueIdentifier>{0528ac00-c1a5-4a82-8548-17e733c2fb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UUT\Quake1">
+      <UniqueIdentifier>{c9ea58c3-849f-4072-ae20-3e0af45c05d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\UUT\Quake1\BSP.cpp">
+      <Filter>UUT\Quake1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UUT\Quake1\BSPLevel.cpp">
+      <Filter>UUT\Quake1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UUT\Quake1\BSPLevelLoader.cpp">
+      <Filter>UUT\Quake1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UUT\Quake1\Q1Utils.cpp">
+      <Filter>UUT\Quake1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UUT\Quake1\Quake1Model.cpp">
+      <Filter>UUT\Quake1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UUT\Quake1\Quake1ModelLoader.cpp">
+      <Filter>UUT\Quake1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UUT\Quake1\Quake1Plugin.cpp">
+      <Filter>UUT\Quake1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\UUT\Quake1\BSP.h">
+      <Filter>UUT\Quake1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UUT\Quake1\BSPLevel.h">
+      <Filter>UUT\Quake1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UUT\Quake1\BSPLevelLoader.h">
+      <Filter>UUT\Quake1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UUT\Quake1\Constants.h">
+      <Filter>UUT\Quake1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UUT\Quake1\Q1Utils.h">
+      <Filter>UUT\Quake1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UUT\Quake1\Quake1Model.h">
+      <Filter>UUT\Quake1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UUT\Quake1\Quake1ModelLoader.h">
+      <Filter>UUT\Quake1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UUT\Quake1\Quake1Plugin.h">
+      <Filter>UUT\Quake1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
